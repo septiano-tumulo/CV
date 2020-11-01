@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(to left, #000050, #167792);
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;;
+}
+.desc{
+    font-size: 20px;
+}
+.boxmodel{
+    display: block;
+    padding: 10px;
+    border: 1px;
+    margin-top: 55px;
+}
+
+nav a:hover{
+    color: #000015;
+    background-color: white;
+}
+
+nav a{
+    display: inline;
+    font-family: ;
+    margin: 3px;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 10px 4px 10px;
+}
+
+.selector1:hover{
+    color: #000015;
+    background-color: white;
+
+}
+
+div.nav{
+    font-family: 'Henny Penny', cursive;    
+    font-size: 33px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background:linear-gradient(to right, #000050, #167792);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.bintang{
+    color: yellow;
+}
+
+
