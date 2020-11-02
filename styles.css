@@ -2,10 +2,13 @@ body{
     background: linear-gradient(to left, #000050, #167792);
 
     color: white;
-    font-family: 'Noto Sans KR', sans-serif;;
+    font-family: 'Noto Sans KR', sans-serif,'Lobster', cursive,'Oswald', sans-serif;
 }
 .desc{
-    font-size: 20px;
+    font-size: 18px;
+}
+.nama h1{
+    margin-top: 65px;
 }
 .boxmodel{
     display: block;
@@ -35,8 +38,8 @@ nav a{
 }
 
 div.nav{
-    font-family: 'Henny Penny', cursive;    
-    font-size: 33px;
+    font-family: 'Henny Penny', cursive,'Lobster', cursive,'Oswald', sans-serif;    
+    font-size: 30px;
     width: 100%;
     height: 50px;
     color: white;
@@ -47,8 +50,54 @@ div.nav{
     z-index: 1;
 }
 
+.selector1{
+    color: aquamarine;
+}
+
 .bintang{
     color: yellow;
 }
+
+@media screen and (max-width: 650px){
+    body{
+        font-size: 10px;
+    }
+    .boxmodel img{
+        width: 100px;
+        height: 100px;        
+    }
+    .nama h1{
+        margin-top: 60px;
+        font-size: 12px;
+    }
+    .nama h2{
+        font-size: 11px;
+    }
+    .desc{
+        font-size: 9px;
+    }
+    nav a{
+        display: inline-block;
+        font-size: 6px;
+        margin: 3px;
+        color: white;
+        border: 1px solid white;
+        padding: 3px 7px 3px 7px;
+    }
+    div.nav{
+        font-family: 'Henny Penny', cursive,'Lobster', cursive,'Oswald', sans-serif;    
+        font-size: 18px;
+        width: 100%;
+        height: 30px;
+        color: white;
+        background:linear-gradient(to right, #000050, #167792);
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+}
+
+
 
 
